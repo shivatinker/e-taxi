@@ -90,3 +90,8 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Podfile.lock
+Int20Drive/Frame47.pdf
+Int20Drive/Iconizer.sh
+Int20Drive/swiftlint.yml
+Int20Drive.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
