@@ -68,6 +68,14 @@ class DDriverInfoViewController: UIViewController {
         vehicleImage2View.contentMode = .scaleAspectFit
         view.addSubview(vehicleImage2View)
         
+        let chatButton = DMediaButton(actionType: .chat)
+        chatButton.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(chatButton)
+        
+        let callButton = DMediaButton(actionType: .call)
+        callButton.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(callButton)
+        
         NSLayoutConstraint.activate([
             backgroundView.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor),
             backgroundView.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor),
@@ -108,6 +116,12 @@ class DDriverInfoViewController: UIViewController {
             vehicleImage2View.rightAnchor.constraint(equalTo: backgroundView.rightAnchor),
             vehicleImage2View.topAnchor.constraint(equalTo: driverInfoView.bottomAnchor, constant: -5),
             vehicleImage2View.heightAnchor.constraint(equalToConstant: 155),
+            
+            callButton.centerXAnchor.constraint(equalTo: avatarView.leftAnchor),
+            callButton.bottomAnchor.constraint(equalTo: avatarView.bottomAnchor),
+            
+            chatButton.centerXAnchor.constraint(equalTo: avatarView.rightAnchor),
+            chatButton.bottomAnchor.constraint(equalTo: avatarView.bottomAnchor),
         ])
     }
     

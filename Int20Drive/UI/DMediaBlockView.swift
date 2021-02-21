@@ -14,6 +14,8 @@ enum DMediaActionType {
     case text
     case tick
     case panorama
+    case call
+    case chat
 }
 
 protocol DMediaButtonDelegate: AnyObject {
@@ -50,6 +52,8 @@ class DMediaButton: UIImageView {
         case .text: self.image = UIImage(named: "text")
         case .tick: self.image = UIImage(named: "tick")
         case .panorama: self.image = UIImage(named: "panorama")
+        case .call: self.image = UIImage(named: "call")
+        case .chat: self.image = UIImage(named: "chat")
         }
         
         self.contentScaleFactor = 0.7
