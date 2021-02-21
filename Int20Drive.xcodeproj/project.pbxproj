@@ -3,27 +3,82 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		646C8B97323DC52A8D1C258F /* Pods_Int20Drive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275BE745CC0036BB04AC3ECE /* Pods_Int20Drive.framework */; };
 		CE7783B925E146A000AAC99D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783B825E146A000AAC99D /* AppDelegate.swift */; };
-		CE7783BB25E146A000AAC99D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783BA25E146A000AAC99D /* SceneDelegate.swift */; };
-		CE7783BD25E146A000AAC99D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783BC25E146A000AAC99D /* ViewController.swift */; };
-		CE7783C025E146A000AAC99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7783BE25E146A000AAC99D /* Main.storyboard */; };
-		CE7783C225E146A300AAC99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7783C125E146A300AAC99D /* Assets.xcassets */; };
-		CE7783C525E146A300AAC99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7783C325E146A300AAC99D /* LaunchScreen.storyboard */; };
+		CE7783C225E146A300AAC99D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7783C125E146A300AAC99D /* Images.xcassets */; };
+		CE7783D625E1484000AAC99D /* DConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783D525E1484000AAC99D /* DConfiguration.swift */; };
+		CE7783DA25E1490300AAC99D /* DContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783D925E1490300AAC99D /* DContext.swift */; };
+		CE7783DE25E1497400AAC99D /* DMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783DD25E1497400AAC99D /* DMainViewController.swift */; };
+		CE7783E625E14B5000AAC99D /* DDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783E525E14B5000AAC99D /* DDataModel.swift */; };
+		CE7783EF25E152CE00AAC99D /* DMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783EE25E152CE00AAC99D /* DMapViewController.swift */; };
+		CE7783F225E1537900AAC99D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783F125E1537900AAC99D /* Utils.swift */; };
+		CE7783F525E155C700AAC99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7783F425E155C700AAC99D /* LaunchScreen.storyboard */; };
+		CE7783FB25E1565B00AAC99D /* DMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783FA25E1565B00AAC99D /* DMarkerView.swift */; };
+		CE7783FE25E15D8800AAC99D /* DGeocodeRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7783FD25E15D8800AAC99D /* DGeocodeRecognizer.swift */; };
+		CE77840125E1887700AAC99D /* DDriverInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77840025E1887700AAC99D /* DDriverInfoViewController.swift */; };
+		CE77840425E19A0F00AAC99D /* DMediaBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77840325E19A0F00AAC99D /* DMediaBlockView.swift */; };
+		CE77840725E1ABE900AAC99D /* DARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77840625E1ABE900AAC99D /* DARViewController.swift */; };
+		CE77843E25E1D25A00AAC99D /* DImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE77843D25E1D25A00AAC99D /* DImageViewController.swift */; };
+		CE9FAF2725E1FD4900D3E13B /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE77841325E1C42300AAC99D /* Intents.framework */; };
+		CE9FAF2A25E1FD4900D3E13B /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FAF2925E1FD4900D3E13B /* IntentHandler.swift */; };
+		CE9FAF2E25E1FD4900D3E13B /* E Taxi.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE9FAF2625E1FD4900D3E13B /* E Taxi.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CE9FAF2C25E1FD4900D3E13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7783AD25E146A000AAC99D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9FAF2525E1FD4900D3E13B;
+			remoteInfo = "E Taxi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE77843325E1C42300AAC99D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE9FAF2E25E1FD4900D3E13B /* E Taxi.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		275BE745CC0036BB04AC3ECE /* Pods_Int20Drive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Int20Drive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA93D3F75449C3CDAB8ED5B /* Pods-Int20Drive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Int20Drive.release.xcconfig"; path = "Target Support Files/Pods-Int20Drive/Pods-Int20Drive.release.xcconfig"; sourceTree = "<group>"; };
+		C09DC6EF7CE4FB13B4BB8AD0 /* Pods-Int20Drive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Int20Drive.debug.xcconfig"; path = "Target Support Files/Pods-Int20Drive/Pods-Int20Drive.debug.xcconfig"; sourceTree = "<group>"; };
 		CE7783B525E146A000AAC99D /* Int20Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Int20Drive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7783B825E146A000AAC99D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE7783BA25E146A000AAC99D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE7783BC25E146A000AAC99D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE7783BF25E146A000AAC99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE7783C125E146A300AAC99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE7783C425E146A300AAC99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE7783C125E146A300AAC99D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE7783C625E146A300AAC99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7783D525E1484000AAC99D /* DConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DConfiguration.swift; sourceTree = "<group>"; };
+		CE7783D925E1490300AAC99D /* DContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DContext.swift; sourceTree = "<group>"; };
+		CE7783DD25E1497400AAC99D /* DMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMainViewController.swift; sourceTree = "<group>"; };
+		CE7783E525E14B5000AAC99D /* DDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDataModel.swift; sourceTree = "<group>"; };
+		CE7783EE25E152CE00AAC99D /* DMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMapViewController.swift; sourceTree = "<group>"; };
+		CE7783F125E1537900AAC99D /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CE7783F425E155C700AAC99D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE7783FA25E1565B00AAC99D /* DMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMarkerView.swift; sourceTree = "<group>"; };
+		CE7783FD25E15D8800AAC99D /* DGeocodeRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGeocodeRecognizer.swift; sourceTree = "<group>"; };
+		CE77840025E1887700AAC99D /* DDriverInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDriverInfoViewController.swift; sourceTree = "<group>"; };
+		CE77840325E19A0F00AAC99D /* DMediaBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMediaBlockView.swift; sourceTree = "<group>"; };
+		CE77840625E1ABE900AAC99D /* DARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DARViewController.swift; sourceTree = "<group>"; };
+		CE77841325E1C42300AAC99D /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		CE77841E25E1C42300AAC99D /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		CE77843D25E1D25A00AAC99D /* DImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DImageViewController.swift; sourceTree = "<group>"; };
+		CE9FAF1A25E1F8C300D3E13B /* Int20Drive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Int20Drive.entitlements; sourceTree = "<group>"; };
+		CE9FAF2625E1FD4900D3E13B /* E Taxi.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "E Taxi.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9FAF2925E1FD4900D3E13B /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		CE9FAF2B25E1FD4900D3E13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +86,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646C8B97323DC52A8D1C258F /* Pods_Int20Drive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9FAF2325E1FD4900D3E13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9FAF2725E1FD4900D3E13B /* Intents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4986CB9D4CE6E1CE6325AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				275BE745CC0036BB04AC3ECE /* Pods_Int20Drive.framework */,
+				CE77841325E1C42300AAC99D /* Intents.framework */,
+				CE77841E25E1C42300AAC99D /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89D7977CE63E8BE319D26AAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C09DC6EF7CE4FB13B4BB8AD0 /* Pods-Int20Drive.debug.xcconfig */,
+				3EA93D3F75449C3CDAB8ED5B /* Pods-Int20Drive.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE7783AC25E146A000AAC99D = {
 			isa = PBXGroup;
 			children = (
 				CE7783B725E146A000AAC99D /* Int20Drive */,
+				CE9FAF2825E1FD4900D3E13B /* E Taxi */,
 				CE7783B625E146A000AAC99D /* Products */,
+				89D7977CE63E8BE319D26AAA /* Pods */,
+				2C4986CB9D4CE6E1CE6325AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7783B525E146A000AAC99D /* Int20Drive.app */,
+				CE9FAF2625E1FD4900D3E13B /* E Taxi.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +143,50 @@
 		CE7783B725E146A000AAC99D /* Int20Drive */ = {
 			isa = PBXGroup;
 			children = (
+				CE9FAF1A25E1F8C300D3E13B /* Int20Drive.entitlements */,
+				CE7783F425E155C700AAC99D /* LaunchScreen.storyboard */,
+				CE7783F125E1537900AAC99D /* Utils.swift */,
+				CE7783DC25E1495600AAC99D /* UI */,
+				CE7783D425E1482D00AAC99D /* Core */,
 				CE7783B825E146A000AAC99D /* AppDelegate.swift */,
-				CE7783BA25E146A000AAC99D /* SceneDelegate.swift */,
-				CE7783BC25E146A000AAC99D /* ViewController.swift */,
-				CE7783BE25E146A000AAC99D /* Main.storyboard */,
-				CE7783C125E146A300AAC99D /* Assets.xcassets */,
-				CE7783C325E146A300AAC99D /* LaunchScreen.storyboard */,
+				CE7783C125E146A300AAC99D /* Images.xcassets */,
 				CE7783C625E146A300AAC99D /* Info.plist */,
 			);
 			path = Int20Drive;
+			sourceTree = "<group>";
+		};
+		CE7783D425E1482D00AAC99D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CE7783D525E1484000AAC99D /* DConfiguration.swift */,
+				CE7783D925E1490300AAC99D /* DContext.swift */,
+				CE7783E525E14B5000AAC99D /* DDataModel.swift */,
+				CE7783FD25E15D8800AAC99D /* DGeocodeRecognizer.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CE7783DC25E1495600AAC99D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE7783DD25E1497400AAC99D /* DMainViewController.swift */,
+				CE7783EE25E152CE00AAC99D /* DMapViewController.swift */,
+				CE7783FA25E1565B00AAC99D /* DMarkerView.swift */,
+				CE77840025E1887700AAC99D /* DDriverInfoViewController.swift */,
+				CE77840325E19A0F00AAC99D /* DMediaBlockView.swift */,
+				CE77840625E1ABE900AAC99D /* DARViewController.swift */,
+				CE77843D25E1D25A00AAC99D /* DImageViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CE9FAF2825E1FD4900D3E13B /* E Taxi */ = {
+			isa = PBXGroup;
+			children = (
+				CE9FAF2925E1FD4900D3E13B /* IntentHandler.swift */,
+				CE9FAF2B25E1FD4900D3E13B /* Info.plist */,
+			);
+			path = "E Taxi";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,18 +196,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7783C925E146A300AAC99D /* Build configuration list for PBXNativeTarget "Int20Drive" */;
 			buildPhases = (
+				10DE863A0C42A74A46CF4819 /* [CP] Check Pods Manifest.lock */,
 				CE7783B125E146A000AAC99D /* Sources */,
 				CE7783B225E146A000AAC99D /* Frameworks */,
 				CE7783B325E146A000AAC99D /* Resources */,
+				240C353C1C23E35153C0932E /* [CP] Copy Pods Resources */,
+				83FD4CFE8B31A1B29B6D3C0E /* [CP] Embed Pods Frameworks */,
+				CE77843325E1C42300AAC99D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CE9FAF2D25E1FD4900D3E13B /* PBXTargetDependency */,
 			);
 			name = Int20Drive;
 			productName = Int20Drive;
 			productReference = CE7783B525E146A000AAC99D /* Int20Drive.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CE9FAF2525E1FD4900D3E13B /* E Taxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9FAF2F25E1FD4900D3E13B /* Build configuration list for PBXNativeTarget "E Taxi" */;
+			buildPhases = (
+				CE9FAF2225E1FD4900D3E13B /* Sources */,
+				CE9FAF2325E1FD4900D3E13B /* Frameworks */,
+				CE9FAF2425E1FD4900D3E13B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E Taxi";
+			productName = "E Taxi";
+			productReference = CE9FAF2625E1FD4900D3E13B /* E Taxi.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +241,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					CE7783B425E146A000AAC99D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CE9FAF2525E1FD4900D3E13B = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -115,6 +262,7 @@
 			projectRoot = "";
 			targets = (
 				CE7783B425E146A000AAC99D /* Int20Drive */,
+				CE9FAF2525E1FD4900D3E13B /* E Taxi */,
 			);
 		};
 /* End PBXProject section */
@@ -124,45 +272,117 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7783C525E146A300AAC99D /* LaunchScreen.storyboard in Resources */,
-				CE7783C225E146A300AAC99D /* Assets.xcassets in Resources */,
-				CE7783C025E146A000AAC99D /* Main.storyboard in Resources */,
+				CE7783C225E146A300AAC99D /* Images.xcassets in Resources */,
+				CE7783F525E155C700AAC99D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9FAF2425E1FD4900D3E13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10DE863A0C42A74A46CF4819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Int20Drive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		240C353C1C23E35153C0932E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Int20Drive/Pods-Int20Drive-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Int20Drive/Pods-Int20Drive-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Int20Drive/Pods-Int20Drive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83FD4CFE8B31A1B29B6D3C0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Int20Drive/Pods-Int20Drive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Int20Drive/Pods-Int20Drive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Int20Drive/Pods-Int20Drive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE7783B125E146A000AAC99D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7783BD25E146A000AAC99D /* ViewController.swift in Sources */,
+				CE7783E625E14B5000AAC99D /* DDataModel.swift in Sources */,
+				CE7783FE25E15D8800AAC99D /* DGeocodeRecognizer.swift in Sources */,
+				CE7783DE25E1497400AAC99D /* DMainViewController.swift in Sources */,
+				CE7783DA25E1490300AAC99D /* DContext.swift in Sources */,
+				CE7783EF25E152CE00AAC99D /* DMapViewController.swift in Sources */,
+				CE77843E25E1D25A00AAC99D /* DImageViewController.swift in Sources */,
 				CE7783B925E146A000AAC99D /* AppDelegate.swift in Sources */,
-				CE7783BB25E146A000AAC99D /* SceneDelegate.swift in Sources */,
+				CE77840425E19A0F00AAC99D /* DMediaBlockView.swift in Sources */,
+				CE7783FB25E1565B00AAC99D /* DMarkerView.swift in Sources */,
+				CE77840725E1ABE900AAC99D /* DARViewController.swift in Sources */,
+				CE77840125E1887700AAC99D /* DDriverInfoViewController.swift in Sources */,
+				CE7783D625E1484000AAC99D /* DConfiguration.swift in Sources */,
+				CE7783F225E1537900AAC99D /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9FAF2225E1FD4900D3E13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9FAF2A25E1FD4900D3E13B /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		CE7783BE25E146A000AAC99D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE7783BF25E146A000AAC99D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		CE9FAF2D25E1FD4900D3E13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9FAF2525E1FD4900D3E13B /* E Taxi */;
+			targetProxy = CE9FAF2C25E1FD4900D3E13B /* PBXContainerItemProxy */;
 		};
-		CE7783C325E146A300AAC99D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE7783C425E146A300AAC99D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CE7783C725E146A300AAC99D /* Debug */ = {
@@ -283,37 +503,91 @@
 		};
 		CE7783CA25E146A300AAC99D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09DC6EF7CE4FB13B4BB8AD0 /* Pods-Int20Drive.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Int20Drive/Int20Drive.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V8DLQ6638;
 				INFOPLIST_FILE = Int20Drive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shivatinker.Int20Drive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CE7783CB25E146A300AAC99D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA93D3F75449C3CDAB8ED5B /* Pods-Int20Drive.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Int20Drive/Int20Drive.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2V8DLQ6638;
 				INFOPLIST_FILE = Int20Drive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shivatinker.Int20Drive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE9FAF3025E1FD4900D3E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V8DLQ6638;
+				INFOPLIST_FILE = "E Taxi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shivatinker.Int20Drive.E-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9FAF3125E1FD4900D3E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V8DLQ6638;
+				INFOPLIST_FILE = "E Taxi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shivatinker.Int20Drive.E-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,6 +610,15 @@
 			buildConfigurations = (
 				CE7783CA25E146A300AAC99D /* Debug */,
 				CE7783CB25E146A300AAC99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9FAF2F25E1FD4900D3E13B /* Build configuration list for PBXNativeTarget "E Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9FAF3025E1FD4900D3E13B /* Debug */,
+				CE9FAF3125E1FD4900D3E13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>E Taxi.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>Int20Drive.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CE7783B425E146A000AAC99D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE77841125E1C42300AAC99D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE77841C25E1C42300AAC99D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE9FAF2525E1FD4900D3E13B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

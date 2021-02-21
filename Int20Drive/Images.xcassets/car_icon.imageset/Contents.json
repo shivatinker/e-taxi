@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "car_icon 1 (1).pdf",
+      "idiom" : "universal",
+      "language-direction" : "right-to-left"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
